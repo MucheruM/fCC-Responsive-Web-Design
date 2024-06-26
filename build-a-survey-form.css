@@ -1,0 +1,56 @@
+body {
+    background: rgb(50, 100, 200);
+    font-family: helvetica;
+    font-size: 1.2rem;
+    overflow: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+#title,
+#description {
+    margin: 0 50;
+    width: 100%;
+}
+
+#description {
+    margin-bottom: 4%;
+}
+
+
+fieldset {
+    border: none;
+}
+
+p {
+    margin-bottom: 7px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10r 0;
+}
+
+.f1 input,
+select {
+    font-size: 1rem;
+    width: 100%;
+    height: 6vh;
+    border: 2px solid rgb(50, 100, 200);
+}
+
+.f4 textarea {
+    width: 100%;
+    height: 10vh;
+    color: black;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: rgb(20, 100, 200);
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 5em;
+}

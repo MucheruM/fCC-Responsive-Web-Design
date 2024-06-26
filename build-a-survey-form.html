@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>survey-form.freecodecamp.rocks</title>
+    <meta charset="UTF-8" viewport="width = device - width">
+    <link rel="stylesheet" href="./build-a-survey-form.css">
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"> <em>My First HTLM/CSS Project with freeCodeCamp</em> </p>
+    <form id="survey-form">
+        <fieldset class="f1">
+            <p> We would like to know our parter </p>
+            <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name"
+                    required></label>
+            <label for="email" id="email-label">Email <input id="email" type="email" required autocomplete="email"
+                    placeholder="Enter your email"></label>
+            <label for="age" id="number-label">Age (Optional) <input type="number" min="12" max="60" type="text"
+                    id="number" placeholder="Enter your age"></label>
+            <label for="career">Career
+                <select id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Developer</option>
+                    <option value="3">Teacher</option>
+                    <option value"4">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset class="f2">
+            <p>Would you recommend freeCodeCamp</p>
+            <label for="yes">
+                <input type="radio" name="recommendation" id="yes" value="1" checked> Definately
+            </label>
+            <label for="maybe">
+                <input type="radio" name="recommendation" id="maybe" value="2"> Maybe
+            </label>
+            <label for="no">
+                <input type="radio" name="recommendation" id="no" value="3"> Not Sure
+            </label>
+        </fieldset>
+        <fieldset class="f3">
+            <p>What do you want to see improved</p>
+            <label for="backend"><input type="checkbox" value="1" id="backend" /> Backend Projects</label>
+            <label for="frontend"><input type="checkbox" value="2" id="frontend" /> Frontend Projects</label>
+            <label for="devops"><input type="checkbox" value="3" id="devops" /> Devops Projects</label>
+            <label for="videos"><input type="checkbox" value="4" id="videos" /> Tutor Videos</label>
+        </fieldset>
+        <fieldset class="f4">
+            <p>Any comments or suggestions</p>
+            <textarea placeholder="Write your comment here">
+        </textarea>
+        </fieldset>
+        <fieldset>
+            <input id="submit" type="submit" class="button">
+            </input>
+        </fieldset>
+    </form>
+</body>
+
+</html>
